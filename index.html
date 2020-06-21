@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw" >
+<head>
+  <meta charset="UTF-8">
+  <title>康乃爾筆記</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Noto+Sans+TC'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="back-con">
+  <div class="paper-con">
+    <div class="paper" id="page1">
+      <div class="paper-block top selectable">
+        <div class="big-title text-box" contenteditable="true">title</div>
+      </div>
+      <div class="paper-block cue">
+        <div class="inner-block"></div>
+      </div>
+      <div class="paper-block notes">
+        <div class="inner-block">
+          <p class="note-row text-box selectable" contenteditable="true">note</p>
+        </div>
+      </div>
+      <div class="paper-block summary"></div>
+    </div>
+  </div>
+  <div class="tooltip"></div>
+</div>
+<div class="edit-con">
+  <div class="edit-top">
+    <div class="go-up">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </div>
+  <div class="edit-region">
+    <div class="btn add-newpage">
+      <div class="btn-name">增</div>
+    </div>
+    <div class="btn remove-page">
+      <div class="btn-name">刪</div>
+    </div>
+    <div class="btn save-pdf">
+      <div class="btn-name">存</div>
+    </div>
+    <div class="btn add-note">
+      <div class="btn-name">記</div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
